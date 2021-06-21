@@ -1,0 +1,229 @@
+* {
+  box-sizing: border-box;
+}
+
+.font-effect-fire {
+  text-shadow: 0 -0.05em 0.2em #FFF, 0.01em -0.02em 0.15em #FE0, 0.01em -0.05em 0.15em #FC0, 0.02em -0.15em 0.2em #F90, 0.04em -0.20em 0.3em #F70, 0.05em -0.25em 0.4em #F70, 0.06em -0.2em 0.9em #F50, 0.1em -0.1em 1.0em #F40;
+  color: #ffe;
+}
+@font-face {
+  font-family: 'Sofia';
+  font-style: font-effect-fire;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/sofia/v9/8QIHdirahM3j_su5uI0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+#Birthdays {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#Birthdays td, #Birthdays th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#Birthdays tr:nth-child(even){background-color: moccasin;}
+
+#Birthdays tr:hover {
+  background-color: tomato;
+  color: white;
+}
+
+#Birthdays th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #6e3103;
+  color: white;
+}
+
+body {
+  font-family: Arial;
+  padding: 20px;
+  background-color: lightgrey;
+}
+.header{
+	font-family: sofia;
+  font-size: 40px;
+	background-color: moccasin;
+	text-align: center;
+	padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+	color: #6e3103;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #6e3103;
+}
+.topnav a {
+  float: left;
+  display: flex;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav a:hover {
+  background-color: tomato;
+  color: white;
+}
+.dropdown{
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+input[type=submit]{
+  width: 100%;
+  background-color: tomato;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.left {   
+  float: left;
+  width: 70%;
+}
+
+/* Right column */
+.right {
+  float: left;
+  width: 30%;
+  padding-left: 20px;
+}
+.box {
+   background-color: papayawhip;
+   padding: 20px;
+   margin-top: 20px;
+}
+.c1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*.c1{
+	padding-top: 25px;
+	padding-right: 25px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+	float: left;
+	width: 47%;
+	background-color: papayawhip;
+}*/
+.align_center{
+  text-align: center;
+}
+.film{
+  border-radius: 6px;
+  width: 220;
+  height: 326;
+}
+.browsers{
+  vertical-align: middle;
+  border-radius: 75%;
+  width: 135px;
+  height: 135px;
+}
+.profile{
+  vertical-align: middle;
+  border-radius: 75%;
+  width: 135px;
+  height: 135px;
+}
+.DP{
+  cursor: pointer;
+  text-align: center;
+  
+  width: 150px;
+  height: 150px;
+}
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 12px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.btn-box{
+  background-color: black;
+  text-align: center;
+  vertical-align: middle;
+  border: 4px solid black;
+  border-radius: 8px;
+  padding: 12px 16px;
+}
+.picker{
+  cursor: pointer;
+  border: white;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+}
+#Brown{
+  background-color: brown;
+}
+#Coral{
+  background-color: coral;
+}
+#LightBlue{
+  background-color: lightblue;
+}
+#PaleGreen{
+  background-color: palegreen;
+}
+#Purple{
+  background-color: purple;
+}
+#SkyBlue{
+  background-color: skyblue;
+}
+#Tomato{
+  background-color: tomato;
+}
+#Navy{
+  background-color: navy;
+}
+.student{
+  border-color: tomato;
+  color: tomato;
+}
+.student:hover{
+  background-color: tomato;
+  color: white;
+}
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}

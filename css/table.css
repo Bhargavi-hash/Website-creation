@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial;
+    padding: 40px;
+    background-color: lightgrey;
+}
+.left {   
+    float: left;
+    width: 70%;
+  }
+  
+  /* Right column */
+.right {
+    float: left;
+    width: 30%;
+    padding-left: 20px;
+}
+.box {
+    border-radius: 10px;
+    text-align: center;
+    background-color: cornsilk;
+    padding: 20px;
+    margin-top: 20px;
+}
+.c1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#Data {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#Data td, #Data th {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+#Data tr:nth-child(even){
+    background-color: moccasin;
+}
+  
+#Data tr:hover {
+    background-color: tomato;
+    color: white;
+}
+  
+#Data th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #6e3103;
+    color: white;
+}
+input[type=submit]{
+    width: 100%;
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px;
+    border: none;
+    cursor: pointer;
+}
+#ADD{
+   
+    width: 30%;
+    background-color: green;
+    color: white;
+    padding: 18px 20px;
+    margin: 8px;
+    border: none;
+    cursor: pointer;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}

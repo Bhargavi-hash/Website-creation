@@ -1,0 +1,97 @@
+.TV {
+    backface-visibility: visible;
+    text-align: center;
+}
+body {
+    font-family: Arial;
+    padding: 40px;
+    background-color: lightgrey;
+}
+.OnScreen {
+    text-align: center;
+    width: 800px;
+    height: 600px;
+    border: 40px solid chocolate;
+    border-left-width: 40px;
+    border-right-width: 250px;
+    border-bottom-width: 70px;
+    border-radius: 6px;
+}
+
+.Helper-btns{
+    cursor: pointer;
+    display: inline;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    border-color: white;
+}
+#previous{
+    position: absolute;
+    bottom: 218px;
+    left: 750px;
+    background-color: blue;
+}
+#replay{
+    position: absolute;
+    bottom: 218px;
+    left: 800px;
+    background-color: green;
+}
+#TurnOff{
+    position: absolute;
+    bottom: 218px;
+    left: 850px;
+    background-color: red;
+}
+.Channel{
+    cursor: pointer;
+    font-size: 20px;
+    color: moccasin;
+    border-radius: 50px;
+    width: 180px;
+    height: 180px;
+    border-width: 14px;
+    border-color: moccasin;
+}
+#Switch_Channel{
+    position: absolute;
+    bottom: 400px;
+    left: 1250px;
+    background-color: maroon;
+}
+#Volume-inc{
+    font-size: 30px;
+    position: absolute;
+    bottom: 218px;
+    left: 1000px;
+    color: white;
+    background-color: green;
+    height: 40px;
+    width: 45px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+#Volume-dec{
+    font-size: 30px;
+    position: absolute;
+    bottom: 218px;
+    left: 955px;
+    color: white;
+    background-color: red;
+    height: 40px;
+    width: 45px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+#SceneNum{
+    position: absolute;
+    bottom: 800px;
+    left: 1350px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    border:3px solid brown;
+    background-color: burlywood;
+    color: maroon;
+    font-size: 25px;
+}

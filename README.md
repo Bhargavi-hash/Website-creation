@@ -3,7 +3,7 @@
 
 Below is the assignment pdf:
 
-[Assignment_2.pdf](https://github.com/Bhargavi-hash/Website-creation/files/7207720/Assignment_2.pdf)##
+[Assignment_2.pdf](https://github.com/Bhargavi-hash/Website-creation/files/7207720/Assignment_2.pdf)
 
 ## How to view this project on your browser?
 - Download the repository into your device and unzip the folder
